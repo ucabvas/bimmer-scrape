@@ -33,3 +33,4 @@ cat dealerinspire_inventory.json | jq 'sort_by(.msrp)' | less
 - [ ] Extend to other brands.
 - [ ] Preserve output in a database. Elasticsearch should work very well.
 - [ ] Build a UI.
+- [ ] Decode VIN or at least add a decoder link.
